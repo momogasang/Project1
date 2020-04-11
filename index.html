@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <title>登录</title>
+</head>
+<body>
+<div class="load">
+    <img src="images/load.png" width="100">
+    <h1>用户登录</h1>
+    <section>
+        <form>
+            <p><em>您的用户名</em><br>
+                <input type="id" name="id" required pattern="^[a-zA-Z0-9_]*$">
+            </p>
+            <p><em>您的密码</em><br>
+                <input type="password" name="password" required minlength="9" pattern="^[a-zA-Z0-9]*">
+            </p>
+        </form>
+    </section>
+    <h2>
+        <a href="src/homepage.html">登录</a>
+        <a href="src/register.html">注册</a>
+    </h2>
+</div>
+</body>
+</html>
