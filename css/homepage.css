@@ -206,5 +206,6 @@ table {
     left: 80px;
     width: auto;
     height: auto;
+    border-color: dodgerblue;
     background-color: rgba(200, 230, 240, 0.4);
 }
